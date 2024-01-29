@@ -1,0 +1,1556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100%;
+    height: 250rem;
+    /* border: 2px solid blue; */
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    cursor: pointer;
+}
+
+.first-nav{
+    width: 100%;
+    height: 6rem;
+    /* border: 2px solid black; */
+    background-color: whitesmoke;
+    /* position: relative; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fashion{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.search{
+    width: 36.5rem;
+    height: 4rem;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-left: 0.4rem;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.cat-1{
+    width: 13rem;
+    height: 3rem;
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    font-size: small;
+    background-color: white;
+  
+}
+
+.cat-1 button{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 1000;
+    border: none;
+    background-color: whitesmoke;
+    transform: rotate(90deg);
+
+}
+
+
+.cat-2{
+    width: 22.5rem;
+    height: 3rem;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 4px;
+    align-items: center;
+    display: flex;
+}
+
+.text-bar{
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+}
+
+.search-bar{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    border: none;
+    height: 5rem;
+    /* border: 2px solid red; */
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.contact{
+    width: 13rem;
+    height: 3rem;
+    /* border: 2px solid olive; */
+    display: flex;
+    align-items: center;
+}
+
+.call{
+    width: 80%;
+    height: 3rem;
+    /* border: 2px solid yellow; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 2px solid lightgray;
+    margin-left: 3px;
+}
+
+.call-image{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.second-nav{
+    width: 100%;
+    height: 3.5rem;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 1rem;
+}
+
+.category{
+    width: 12rem;
+    height: 2.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: orange;
+    font-size: small;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.7rem;
+}
+
+.shop-button{
+    border: none;
+    background-color: orange;
+    transform: rotate(90deg);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.list{
+    width: 45rem;
+    height: 2.5rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+    
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+li{
+    width: 6rem;
+    height: 2rem;
+    /* border: 2px solid gold; */
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    /* align-items: center; */
+    /* border-left: lightgray solid; */
+    border-right: lightgrey 2px solid;
+    padding-top: 4px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04); */
+    cursor: pointer;
+
+}
+
+li:hover{
+    background: lightgray;
+    transition-duration: 0.4s;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    color: blue;
+    
+    
+
+}
+
+.account{
+    width: 17.5rem;
+    height: 2.4rem;
+    /* border: 2px solid gold; */
+    margin-left: 7.9rem;
+    /* margin-right: 1rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cart-1{
+    width: 8.5rem;
+    height: 2.4rem;
+    border: 2px solid;
+    background-color: orange;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    padding-right: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    
+
+}
+
+.Cart-2{
+    width: 8.5rem;
+    height: 2.4rem;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    padding-right: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    
+}
+
+.acc{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.accc{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 5px;
+}
+
+.parent1{
+    width: 100%;
+    height: 25rem;
+    background-color: lightpink;
+    position: relative;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.buy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 30rem;
+}
+
+.offer{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    left: 35.5rem;
+    top: 10rem;
+}
+
+.candy-girl{
+    position: absolute;
+    left: 50rem;
+    /* width: 50rem; */
+
+}
+
+.prev{
+    width: 2rem;
+    height: 6rem;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: palevioletred;
+    font-weight: bolder;
+    position: absolute;
+    left: 5px;
+    cursor: pointer;
+}
+
+.next{
+    width: 2rem;
+    height: 6rem;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: palevioletred;
+    font-weight: bolder;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+.parent2{
+    width: 81rem;
+    height: 4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.child2{
+    width: 24rem;
+    height: 4rem;
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+.logo1{
+    width: 7rem;
+    position: absolute;
+    bottom: -23px;
+    text-align: center;
+    left: -15px;
+}
+
+.logo2{
+    width: 3.5rem;
+    position: absolute;
+    top: -0.1rem;
+    text-align: center;
+    left: 2rem;
+}
+
+.logo3{
+    width: 4rem;
+    position: absolute;
+    top: -0.3rem;
+    text-align: center;
+}
+
+.font1{
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.font2{
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.font3{
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+
+
+.product{
+    width: 78rem;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.trend{
+    width: 25rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.trend-1{
+    width: 22rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.special{
+    width: 17rem;
+    height: 3rem;
+    /* border: 2px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+
+}
+
+.special-font{
+    width: 6rem;
+    height: 1.4rem;
+    text-align: center;
+    color: gray;
+}
+
+.special-font-b{
+    width: 6rem;
+    height: 1.4rem;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    text-align: center;
+    color: gray;
+}
+
+.arrow{
+    width: 3.5rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+    transform: rotate(180deg);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+}
+
+.wardrobe{
+    width: 78rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.dress{
+    width: 15rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.cloth{
+    width: 15rem;
+    height: 19rem;
+    /* border: 2px solid yellow; */
+    background-color: gainsboro;
+    position: relative;
+    border-radius: 5px;
+}
+
+.cloth:hover{
+    background-color: lightcyan;
+    transition-duration: 0.5s;
+}
+
+.cloth-pic{
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: -0.4rem;
+}
+
+.price{
+    width: 15rem;
+    height: 7.5rem;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-text{
+    width: 100%;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.add-cart{
+    width: 7rem;
+    height: 2rem;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-weight: 530;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.add-cart:hover{
+    width: 7.2rem;
+    transition: 0.2s;
+    height: 2.1rem;
+    padding-top: 0.4rem;
+}
+
+.cloth-jacket{
+    position: absolute;
+    width: 12rem;
+    height: 16rem;
+    top: 1.5rem;
+    left: 1.3rem;
+}
+
+.cloth-dress{
+    position: absolute;
+    width: 19rem;
+    height: 19rem;
+    top: 0;
+    left: -1.5rem;
+}
+
+.quick-view{
+    width: 9rem;
+    height: 2rem;
+    background-color: orange;
+    position: absolute;
+    top: 9rem;
+    right: 3rem;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background: rgba(243, 170, 13, 0.836);
+    cursor: pointer;
+}
+
+.cloth-winter{
+    position: absolute;
+    width: 15rem;
+    height: 19rem;
+    /* top: 1.5rem; */
+    left: -0,3rem;
+}
+
+.parent4{
+    width: 81rem;
+    height: 19rem;
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 237, 237);
+    padding-top: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+
+}
+
+.child4{
+    width: 26rem;
+    height: 17.5rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.mid-text{
+    width: 12rem;
+    height: 16rem;
+    /* border: 2px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+}
+
+.mid-photo{
+    width: 12rem;
+    height: 16rem;
+    /* border: 2px solid black; */
+    background-color: lightgray;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.mid-photo:hover{
+    /* border: 2px solid black; */
+    background-color: lightcyan;
+    transition-duration: 0.4s;
+}
+
+.left{
+    font-size: small;
+    font-weight: 900;
+}
+
+.trouser{
+    width: 12rem;
+    position: absolute;
+    bottom: -1rem;
+}
+
+.stretch{
+    width: 13rem;
+    position: absolute;
+    bottom: -1rem;
+}
+
+.skinny{
+    width: 9.5rem;
+    position: absolute;
+    bottom: -1rem;
+    left: 1.3rem;
+}
+
+.discount{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: orange;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border-radius: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-left: 0.7rem;
+    left: 1rem;
+    top: 1rem;
+}
+
+.parent3{
+    width: 81rem;
+    height: 34rem;
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product{
+    width: 78rem;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.trend{
+    width: 25rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.trend-1{
+    width: 22rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.special{
+    width: 17rem;
+    height: 3rem;
+    /* border: 2px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+
+}
+
+.special-font{
+    width: 6rem;
+    height: 1.4rem;
+    text-align: center;
+    color: gray;
+}
+
+.special-font-b{
+    width: 6rem;
+    height: 1.4rem;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    text-align: center;
+    color: gray;
+}
+
+.arrow{
+    width: 3.5rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+    transform: rotate(180deg);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+}
+
+.wardrobe{
+    width: 78rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.dress{
+    width: 15rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.cloth{
+    width: 15rem;
+    height: 19rem;
+    /* border: 2px solid yellow; */
+    background-color: gainsboro;
+    position: relative;
+    border-radius: 5px;
+}
+
+.cloth:hover{
+    background-color: lightcyan;
+    transition-duration: 0.5s;
+}
+
+.cloth-pic1{
+    position: absolute;
+    width: 14rem;
+    height: 15rem;
+    right: 0.5rem;
+    top: 2rem;
+}
+
+.price{
+    width: 15rem;
+    height: 7.5rem;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-text{
+    width: 100%;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.add-cart{
+    width: 7rem;
+    height: 2rem;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-weight: 530;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.add-cart:hover{
+    width: 7.2rem;
+    transition: 0.2s;
+    height: 2.1rem;
+    padding-top: 0.4rem;
+}
+
+.cloth-jacket1{
+    position: absolute;
+    width: 15rem;
+    height: 9rem;
+    top: 5rem;
+    left: 0rem;
+}
+
+.cloth-dress1{
+    position: absolute;
+    width: 13rem;
+    height: 17rem;
+    top: 0;
+    left: 0.8rem;
+    top: 15px;
+}
+
+
+.cloth-winter1{
+    position: absolute;
+    width: 13rem;
+    height: 12rem;
+    /* top: 1.5rem; */
+    left: 1rem;
+    top: 4rem;
+    transform: rotate(10deg);
+}
+
+
+.parent5{
+    width: 81rem;
+    height: 25rem;
+    background-color: goldenrod;
+    margin-top: 3rem;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+    display: flex;
+}
+
+.big-offer{
+    width: 40rem;
+    height: 15rem;
+    /* border: 2px solid black; */
+    margin-top: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    position: relative;
+}
+
+.divider{
+    position: absolute;
+    width: 15rem;
+    left: 24.5rem;
+    top: 3.5rem;
+}
+
+.more{
+    height: 2.5rem;
+    width: 11rem;
+    background: linear-gradient(to top,black,lightgray);
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    margin-top: 4rem;
+}
+
+.shop-bag{
+    position: absolute;
+    height: 25rem;
+    right: 9rem;
+}
+
+.parent3{
+    width: 81rem;
+    height: 34rem;
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product{
+    width: 78rem;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.trend{
+    width: 25rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.trend-1{
+    width: 22rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.special{
+    width: 17rem;
+    height: 3rem;
+    /* border: 2px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+
+}
+
+.special-font{
+    width: 6rem;
+    height: 1.4rem;
+    text-align: center;
+    color: gray;
+}
+
+.special-font-b{
+    width: 6rem;
+    height: 1.4rem;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    text-align: center;
+    color: gray;
+}
+
+.arrow{
+    width: 3.5rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+    transform: rotate(180deg);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+}
+
+.wardrobe{
+    width: 78rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.dress{
+    width: 15rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.cloth{
+    width: 15rem;
+    height: 19rem;
+    /* border: 2px solid yellow; */
+    background-color: gainsboro;
+    position: relative;
+    border-radius: 5px;
+}
+
+.cloth:hover{
+    background-color: lightcyan;
+    transition-duration: 0.5s;
+}
+
+.cloth-pic2{
+    position: absolute;
+    width: 15rem;
+    height: 18rem;
+    right: 0.2rem;
+    top: 1rem;
+}
+
+.price{
+    width: 15rem;
+    height: 7.5rem;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-text{
+    width: 100%;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.add-cart{
+    width: 7rem;
+    height: 2rem;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-weight: 530;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.add-cart:hover{
+    width: 7.2rem;
+    transition: 0.2s;
+    height: 2.1rem;
+    padding-top: 0.4rem;
+}
+
+.cloth-jacket2{
+    position: absolute;
+    width: 25rem;
+    height: 18rem;
+    top: 1rem;
+    /* left: 0rem; */
+    right: -4rem;
+}
+
+.cloth-dress1{
+    position: absolute;
+    width: 13rem;
+    height: 17rem;
+    top: 0;
+    left: 0.8rem;
+    top: 15px;
+}
+
+
+.cloth-winter2{
+    position: absolute;
+    width: 15rem;
+    height: 17rem;
+    /* top: 1.5rem; */
+    left: 0rem;
+    top: 3rem;
+    transform: rotate(10deg);
+}
+
+.cloth-winter3{
+    position: absolute;
+    width: 18rem;
+    height: 19rem;
+    /* top: 1.5rem; */
+    left: 0rem;
+    
+}
+
+
+.parent3{
+    width: 81rem;
+    height: 34rem;
+    /* border: 2px solid blue; */
+    background-color: white;
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product{
+    width: 78rem;
+    height: 3.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.trend{
+    width: 25rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.trend-1{
+    width: 22rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.special{
+    width: 17rem;
+    height: 3rem;
+    /* border: 2px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+
+}
+
+.special-font{
+    width: 6rem;
+    height: 1.4rem;
+    text-align: center;
+    color: gray;
+}
+
+.special-font-b{
+    width: 6rem;
+    height: 1.4rem;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    text-align: center;
+    color: gray;
+}
+
+.arrow{
+    width: 3.5rem;
+    height: 3rem;
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+    transform: rotate(180deg);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-arrow{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: magenta;
+}
+
+.wardrobe{
+    width: 78rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.dress-1{
+    width: 18.5rem;
+    height: 27rem;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+
+.cloth-1{
+    width: 18.5rem;
+    height: 14rem;
+    border: 4px solid olivedrab;
+    background-color: plum;
+    position: relative;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.cloth-1:hover{
+    background-color: lightcyan;
+    transition-duration: 0.3s;
+}
+
+.cloth-pic2{
+    position: absolute;
+    width: 15rem;
+    height: 18rem;
+    right: 0.2rem;
+    top: 1rem;
+}
+
+.price-1{
+    width: 18.5rem;
+    height: 13rem;
+    /* border: 2px solid green; */
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+}
+
+
+.cloth-dress6{
+    position: absolute;
+    width: 16rem;
+    height: 18rem;
+    /* top: 0; */
+    left: 0.8rem;
+    /* top: 15px; */
+    bottom: -1rem;
+}
+
+
+.cloth-winter6{
+    position: absolute;
+    width: 15rem;
+    height: 14rem;
+    /* top: 1.5rem; */
+    left: 2rem;
+    top: -0.5rem;
+}
+
+.cloth-winter66{
+    position: absolute;
+    width: 12rem;
+    height: 13.5rem;
+    left: 3rem;
+    bottom: 1px;
+    
+}
+
+.cloth-jacket6{
+    position: absolute;
+    width: 13rem;
+    height: 12rem;
+    top: 0.7rem;
+    left: 2rem;
+    
+}
+
+.voucher{
+    width: 81rem;
+    height: 7rem;
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.free{
+    width: 33rem;
+    height: 5rem;
+    /* border: 2px solid red; */
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+
+.subscribe{
+    width: 39rem;
+    height: 5rem;
+    /* border: 2px solid blue; */
+    padding-top: 2rem;
+}
+
+.sub{
+    width: 25rem;
+    height: 2rem;
+    border: 1px solid lightgrey;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.sub-1{
+    width: 11rem;
+    height: 2.5rem;
+    background-color: orange;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+
+.last-parent{
+    width: 100%;
+    height: 24rem;
+    /* border: 2px solid black; */
+    margin-top: 2.5rem;
+    background: rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    padding-top: 2rem;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dudes{
+    width: 21rem;
+    height: 18rem;
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+.link{
+    width: 13rem;
+    height: 19rem;
+    /* border: 2px solid red; */
+    padding-top: 0.5rem;
+    padding-left: 0.9rem;
+    border-left: 1.5px solid lightslategray;
+    /* border-right: 1px solid lightslategray; */
+}
+
+.cat{
+    width: 42rem;
+    /* border: 2px solid blue; */
+    height: 19rem;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1.5px solid lightslategray;
+}
+
+.contact{
+    width: 16rem;
+    height: 20rem;
+    /* border: 2px solid gold; */
+    position: relative;
+    margin-left: 1rem;
+}
+
+.pic{
+    position: absolute;
+    width: 9rem;
+    height: 6rem;
+    bottom: 9.8rem;
+    left: -1.1rem;
+
+
+}
+
+.pic-text{
+    position: absolute;
+    bottom: 6rem;
+    color: dimgray;
+
+}
+
+.follow{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 4rem;
+  
+}
+
+.media{
+    position: absolute;
+    width: 7rem;
+    bottom: 0.7rem;
+    right: 14.3rem;
+}
+
+.B{
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: dimgray;
+    font-weight: 500;
+
+}
+
+.numb{
+    position: absolute;
+    top: 0.5rem;
+}
+
+.pay{
+    position: absolute;
+    bottom: 9rem;
+}
+
+.c{
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    color: dimgray;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+
+.location{
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: 2.5rem;
+}
+
+.logo4{
+    position: absolute;
+    width: 1.2rem;
+    top: 2.4rem;
+}
+
+.logo5{
+    position: absolute;
+    width: 1rem;
+    top: 4.25rem;
+}
+
+.logo6{
+    position: absolute;
+    width: 2rem;
+    top: 5.7rem;
+    left: -0.3rem;
+}
+
+.payment{
+    position: absolute;
+    width: 15rem;
+    /* top: 4.25rem; */
+    bottom: 4rem;
+    left: -0.6rem;
+}
